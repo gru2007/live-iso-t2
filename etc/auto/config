@@ -15,7 +15,7 @@ lb config noauto \
     --mode debian \
     --distribution "$BASECODENAME" \
     --parent-distribution "$BASECODENAME" \
-    --linux-packages "linux-image linux-headers" \
+    --linux-packages "linux-t2-lts" \
     --linux-flavours "$KERNEL_FLAVORS" \
     --bootappend-live "boot=live config username=vanilla user-fullname=Vanilla quiet splash bgrt_disable" \
     \
